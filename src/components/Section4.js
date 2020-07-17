@@ -53,16 +53,16 @@ export default () => {
             <div className="container">
                 <div className="row ">
                     <div ref={ref} className="col col-3" onMouseOver={() => {getAnimation().play()}}>
-                        <img src={Whatsapp} width="50%" height="auto" alt="Responsive-1" />
+                        <img src={Whatsapp} width="40%" height="auto" alt="Responsive-1" />
                     </div>
                     <div ref={ref2} className="col col-3" onMouseOver={() => {getAnimation_1().play()}}>
-                        <img src={Twitter} width="50%" height="auto" alt="Responsive-1" />
+                        <img src={Twitter} width="40%" height="auto" alt="Responsive-1" />
                     </div>
                     <div ref={ref3} className="col col-3" onMouseOver={() => {getAnimation_2().play()}}>
-                        <img src={Linkedin} width="50%" height="auto" alt="Responsive-1" />
+                        <img src={Linkedin} width="40%" height="auto" alt="Responsive-1" />
                     </div>
                     <div ref={ref4} className="col col-3" onMouseOver={() => {getAnimation_3().play()}}>
-                        <img src={Insta} width="50%" height="auto" alt="Responsive-1" />
+                        <img src={Insta} width="40%" height="auto" alt="Responsive-1" />
                     </div>
                 </div>
             </div>
