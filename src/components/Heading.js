@@ -4,7 +4,6 @@ import useWebAnimations from '@wellyshen/use-web-animations';
 export default () => {
 
     const { ref } = useWebAnimations({ keyframes: [
-        {opacity: 0.2},
         {transform: 'scale(0.5)'},
         {transform: 'scale(1.5)'}
            
